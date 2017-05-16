@@ -1,0 +1,4 @@
+<li class="header">Admin Menu</li>
+<li <?php if(isset($m_auth_index)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('main/auth/index')?>'><i class="fa fa-circle-o"></i> <span>User</span></a></li>
+<li <?php if(isset($m_change_password)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('main/auth/change_password')?>'><i class="fa fa-circle-o"></i> <span>Change Password</a></span></li>
+<li <?php if(isset($m_assets_category_management)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('main/mod/assets_category')?>'><i class="fa fa-circle-o"></i> <span>Assets Category</a></span></li>
